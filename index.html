@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task List</title>
+    <!-- Materialize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body class="container">
+    <!-- Form Input -->
+    <div class="row">
+      <div class="col s12 card">
+        <div class="card-content">
+          <h1 class="card-title center-align">Task Lists</h1>
+          <div class="input-field">
+            <label for="input">Enter Task</label>
+            <input type="text" id="input" />
+          </div>
+          <button type="submit" id="add-button" class="btn">ADD</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Task Lists -->
+    <div class="row">
+      <div class="col s12 card">
+        <div class="card-content">
+          <h2 class="card-title">Tasks Pending</h2>
+          <div class="input-field">
+            <input type="text" id="filter" placeholder="Filter tasks" />
+          </div>
+          <ul class="collection"></ul>
+          <button id="clear-all" class="btn grey darken-1">CLEAR ALL</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- App Script -->
+    <script src="app.js"></script>
+  </body>
+</html>
