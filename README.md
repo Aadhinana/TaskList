@@ -1,4 +1,4 @@
 # Task List
 Vanilla JS application to manage tasks
 
-Demo: https://aadhinana.github.io/taskList/
+[Check out the demo here!](https://aadhinana.github.io/taskList/)
